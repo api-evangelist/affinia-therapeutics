@@ -1,8 +1,26 @@
 aid: affinia-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affinia-therapeutics.png
 name: Affinia Therapeutics
-description: 'Affinia Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Affinia Therapeutics is a clinical-stage biotechnology company in Waltham,
+  Massachusetts pioneering next-generation adeno-associated virus (AAV) gene therapies.
+  Using AI and structural modeling to rationally design novel capsids that better target
+  tissues for improved safety and effectiveness, Affinia develops therapeutic cargoes
+  for devastating rare and prevalent diseases of the heart and the nervous system. Its
+  lead program, AFTX-201, targets BAG3-associated dilated cardiomyopathy and is being
+  evaluated in the UPBEAT trial. Affinia Therapeutics is a portfolio company of GV
+  (Google Ventures). This company profile carries no public API surface; it is tracked
+  in the API Evangelist network for identity and demand signal.'
 url: https://raw.githubusercontent.com/api-evangelist/affinia-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +34,13 @@ modified: '2026-07-17'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Gene Therapy
+- AAV
+- Rare Disease
+- Cardiology
+- Pharmaceuticals
+- Clinical Stage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://affiniatx.com
+  url: https://affiniatx.com/
+- type: Blog
+  url: https://affiniatx.com/our-news/
+- type: Support
+  url: https://affiniatx.com/contact-us/
+- type: PrivacyPolicy
+  url: https://affiniatx.com/privacy-policy/
+- type: TermsOfService
+  url: https://affiniatx.com/terms-of-use/
+- type: DomainSecurity
+  url: security/affinia-therapeutics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
