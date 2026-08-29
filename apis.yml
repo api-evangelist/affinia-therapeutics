@@ -33,6 +33,9 @@ description: 'Affinia Therapeutics is a clinical-stage biotechnology company in 
   (Google Ventures). This company profile carries no public API surface; it is tracked
   in the API Evangelist network for identity and demand signal.'
 url: https://raw.githubusercontent.com/api-evangelist/affinia-therapeutics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This company profile carries no public API surface; it is tracked in the API Evangelist network for identity and demand signal."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
